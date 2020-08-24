@@ -1,0 +1,61 @@
+
+<!doctype html>
+<html lang="ja">
+    
+<head>
+<meta charset="UTF-8">
+<title>MasculineTokyo | お客様に「自信」を届けるプロフェッショナル集団</title>
+<link rel="stylesheet" media="all" href="Mstylesheet.css">
+
+</head>
+
+<body>
+  <header id="header">
+	<img src="mainImg.jpg" alt="">
+	<div id="slogan">
+		<h1>Vestibulum mauris</h1>
+		<h2>最新技術と自然との調和を目指す</h2>
+	</div>
+ </header>
+  
+  
+      <!-- ナビメニュー -->
+      <header>
+    <nav id="nav">
+      <ul>
+        <li><a href="MasculineTokyo_home.html">TOP</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="#">Members</a></li>
+        <li><a href="#">Voice</a></li>
+      </ul>
+    </nav>
+    <div id="hamburger">
+      <span class="inner_line" id="line1"></span>
+      <span class="inner_line" id="line2"></span>
+      <span class="inner_line" id="line3"></span>
+    </div>
+  </header>
+    
+   <script>
+  function hamburger() {
+  document.getElementById('line1').classList.toggle('line_1');
+  document.getElementById('line2').classList.toggle('line_2');
+  document.getElementById('line3').classList.toggle('line_3');
+  document.getElementById('nav').classList.toggle('in');
+}
+  document.getElementById('hamburger').addEventListener('click' , function () {
+  hamburger();
+} );        
+    </script>
+
+  <!–メニューボタン作成終了*/–>
+
+
+
+<footer id="footer">
+	Copyright(c) 20XX Sample Inc. All Rights Reserved. Design by <a href="http://f-tpl.com" target="_blank">http://f-tpl.com</a><!-- ←クレジット表記を外す場合はシリアルキーが必要です http://f-tpl.com/credit/ -->
+</footer>
+
+</body>
+</html>
+
